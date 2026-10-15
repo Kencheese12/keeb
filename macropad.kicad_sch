@@ -1,0 +1,8647 @@
+	(kicad_sch
+	(version 20231120
+	)
+	(generator "eeschema"
+	)
+	(generator_version "8.0"
+	)
+	(uuid "0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+	)
+	(paper "A3"
+	)
+		(title_block
+		(title "Macro pad 4x4 (KB2040)"
+		)
+		(rev "A"
+		)
+	)
+		(lib_symbols
+			(symbol "macropad:SW_PUSH"
+			(pin_numbers hide
+			)
+				(pin_names
+				(offset 1.016
+				)
+			hide
+			)
+			(exclude_from_sim no
+			)
+			(in_bom yes
+			)
+			(on_board yes
+			)
+				(property "Reference" "SW"
+				(at 0 5.08 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Value" "SW_PUSH"
+				(at 0 -5.08 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Footprint" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Datasheet" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(symbol "SW_PUSH_0_1"
+					(circle
+					(center -2.03 0
+					)
+					(radius 0.51
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(circle
+					(center 2.03 0
+					)
+					(radius 0.51
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(polyline
+						(pts
+						(xy 0 1.27
+						)
+						(xy 0 3.05
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(polyline
+						(pts
+						(xy -2.54 1.27
+						)
+						(xy 2.54 1.27
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+			)
+				(symbol "SW_PUSH_1_1"
+					(pin passive line
+					(at -5.08 0 0
+					)
+					(length 2.54
+					)
+						(name "1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 5.08 0 180
+					)
+					(length 2.54
+					)
+						(name "2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+			(symbol "macropad:D"
+			(pin_numbers hide
+			)
+				(pin_names
+				(offset 1.016
+				)
+			hide
+			)
+			(exclude_from_sim no
+			)
+			(in_bom yes
+			)
+			(on_board yes
+			)
+				(property "Reference" "D"
+				(at 0 5.08 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Value" "D"
+				(at 0 -5.08 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Footprint" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Datasheet" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(symbol "D_0_1"
+					(polyline
+						(pts
+						(xy -1.27 1.27
+						)
+						(xy 1.27 1.27
+						)
+						(xy 0 -1.27
+						)
+						(xy -1.27 1.27
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type outline
+						)
+					)
+				)
+					(polyline
+						(pts
+						(xy -1.27 -1.27
+						)
+						(xy 1.27 -1.27
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(polyline
+						(pts
+						(xy 0 2.54
+						)
+						(xy 0 1.27
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(polyline
+						(pts
+						(xy 0 -1.27
+						)
+						(xy 0 -2.54
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+			)
+				(symbol "D_1_1"
+					(pin passive line
+					(at 0 3.81 270
+					)
+					(length 2.54
+					)
+						(name "A"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 0 -3.81 90
+					)
+					(length 2.54
+					)
+						(name "K"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+			(symbol "macropad:RotaryEncoder_Switch"
+			(pin_numbers hide
+			)
+			(exclude_from_sim no
+			)
+			(in_bom yes
+			)
+			(on_board yes
+			)
+				(property "Reference" "RE"
+				(at 0 8.89 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Value" "RotaryEncoder_Switch"
+				(at 0 -8.89 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Footprint" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Datasheet" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(symbol "RotaryEncoder_Switch_1_1"
+					(rectangle
+					(start -5.08 -5.08
+					)
+					(end 5.08 5.08
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type background
+						)
+					)
+				)
+					(pin passive line
+					(at -7.62 2.54 0
+					)
+					(length 2.54
+					)
+						(name "A"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "A"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -7.62 -2.54 0
+					)
+					(length 2.54
+					)
+						(name "B"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "B"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 7.62 0 180
+					)
+					(length 2.54
+					)
+						(name "C"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "C"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+				(symbol "RotaryEncoder_Switch_2_1"
+					(circle
+					(center -2.03 0
+					)
+					(radius 0.51
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(circle
+					(center 2.03 0
+					)
+					(radius 0.51
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(polyline
+						(pts
+						(xy 0 1.27
+						)
+						(xy 0 3.05
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(polyline
+						(pts
+						(xy -2.54 1.27
+						)
+						(xy 2.54 1.27
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(pin passive line
+					(at -5.08 0 0
+					)
+					(length 2.54
+					)
+						(name "S1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "S1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 5.08 0 180
+					)
+					(length 2.54
+					)
+						(name "S2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "S2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+			(symbol "macropad:R"
+			(pin_numbers hide
+			)
+				(pin_names
+				(offset 1.016
+				)
+			hide
+			)
+			(exclude_from_sim no
+			)
+			(in_bom yes
+			)
+			(on_board yes
+			)
+				(property "Reference" "R"
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Value" "R"
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Footprint" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Datasheet" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(symbol "R_0_1"
+					(rectangle
+					(start -1.02 -2.54
+					)
+					(end 1.02 2.54
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type background
+						)
+					)
+				)
+			)
+				(symbol "R_1_1"
+					(pin passive line
+					(at 0 3.81 270
+					)
+					(length 1.27
+					)
+						(name "1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 0 -3.81 90
+					)
+					(length 1.27
+					)
+						(name "2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+			(symbol "macropad:KB2040"
+			(exclude_from_sim no
+			)
+			(in_bom yes
+			)
+			(on_board yes
+			)
+				(property "Reference" "U"
+				(at 0 21.59 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Value" "KB2040"
+				(at 0 -21.59 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Footprint" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Datasheet" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(symbol "KB2040_0_1"
+					(rectangle
+					(start -15.24 -17.78
+					)
+					(end 15.24 17.78
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type background
+						)
+					)
+				)
+			)
+				(symbol "KB2040_1_1"
+					(pin passive line
+					(at -17.78 15.24 0
+					)
+					(length 2.54
+					)
+						(name "D+"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 12.7 0
+					)
+					(length 2.54
+					)
+						(name "TX"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 10.16 0
+					)
+					(length 2.54
+					)
+						(name "RX"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "3"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 7.62 0
+					)
+					(length 2.54
+					)
+						(name "GND"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "4"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 5.08 0
+					)
+					(length 2.54
+					)
+						(name "GND"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "5"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 2.54 0
+					)
+					(length 2.54
+					)
+						(name "D2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "6"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 0 0
+					)
+					(length 2.54
+					)
+						(name "D3"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "7"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 -2.54 0
+					)
+					(length 2.54
+					)
+						(name "D4"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "8"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 -5.08 0
+					)
+					(length 2.54
+					)
+						(name "D5"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "9"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 -7.62 0
+					)
+					(length 2.54
+					)
+						(name "D6"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "10"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 -10.16 0
+					)
+					(length 2.54
+					)
+						(name "D7"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "11"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 -12.7 0
+					)
+					(length 2.54
+					)
+						(name "D8"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "12"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at -17.78 -15.24 0
+					)
+					(length 2.54
+					)
+						(name "D9"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "13"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 15.24 180
+					)
+					(length 2.54
+					)
+						(name "D-"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "14"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 12.7 180
+					)
+					(length 2.54
+					)
+						(name "RAW"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "15"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 10.16 180
+					)
+					(length 2.54
+					)
+						(name "GND"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "16"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 7.62 180
+					)
+					(length 2.54
+					)
+						(name "RST"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "17"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 5.08 180
+					)
+					(length 2.54
+					)
+						(name "3V3"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "18"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 2.54 180
+					)
+					(length 2.54
+					)
+						(name "A3"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "19"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 0 180
+					)
+					(length 2.54
+					)
+						(name "A2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "20"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 -2.54 180
+					)
+					(length 2.54
+					)
+						(name "A1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "21"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 -5.08 180
+					)
+					(length 2.54
+					)
+						(name "A0"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "22"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 -7.62 180
+					)
+					(length 2.54
+					)
+						(name "SCK"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "23"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 -10.16 180
+					)
+					(length 2.54
+					)
+						(name "MISO"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "24"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 -12.7 180
+					)
+					(length 2.54
+					)
+						(name "MOSI"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "25"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 17.78 -15.24 180
+					)
+					(length 2.54
+					)
+						(name "D10"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "26"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+			(symbol "macropad:USB_C_Receptacle"
+			(exclude_from_sim no
+			)
+			(in_bom yes
+			)
+			(on_board yes
+			)
+				(property "Reference" "J"
+				(at 0 35.56 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Value" "USB_C_Receptacle"
+				(at 0 -35.56 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Footprint" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Datasheet" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(symbol "USB_C_Receptacle_0_1"
+					(rectangle
+					(start -7.62 -33.02
+					)
+					(end 7.62 33.02
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type background
+						)
+					)
+				)
+			)
+				(symbol "USB_C_Receptacle_1_1"
+					(pin passive line
+					(at 10.16 30.48 180
+					)
+					(length 2.54
+					)
+						(name "VBUS"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "A4B9"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 25.4 180
+					)
+					(length 2.54
+					)
+						(name "VBUS"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "B4A9"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 20.32 180
+					)
+					(length 2.54
+					)
+						(name "CC1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "A5"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 15.24 180
+					)
+					(length 2.54
+					)
+						(name "CC2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "B5"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 10.16 180
+					)
+					(length 2.54
+					)
+						(name "D+"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "A6"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 5.08 180
+					)
+					(length 2.54
+					)
+						(name "D+"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "B6"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 0 180
+					)
+					(length 2.54
+					)
+						(name "D-"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "A7"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 -5.08 180
+					)
+					(length 2.54
+					)
+						(name "D-"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "B7"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 -10.16 180
+					)
+					(length 2.54
+					)
+						(name "SBU1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "A8"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 -15.24 180
+					)
+					(length 2.54
+					)
+						(name "SBU2"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "B8"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 -20.32 180
+					)
+					(length 2.54
+					)
+						(name "GND"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "A1B12"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 -25.4 180
+					)
+					(length 2.54
+					)
+						(name "GND"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "B1A12"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+					(pin passive line
+					(at 10.16 -30.48 180
+					)
+					(length 2.54
+					)
+						(name "SHIELD"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "S1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+			(symbol "power:GND"
+			(power
+			)
+				(pin_names
+				(offset 0
+				)
+			hide
+			)
+			(exclude_from_sim no
+			)
+			(in_bom yes
+			)
+			(on_board yes
+			)
+				(property "Reference" "#PWR"
+				(at 0 -6.35 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Value" "GND"
+				(at 0 -3.81 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Footprint" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Datasheet" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(symbol "GND_0_1"
+					(polyline
+						(pts
+						(xy 0 0
+						)
+						(xy 0 -1.27
+						)
+						(xy 1.27 -1.27
+						)
+						(xy 0 -2.54
+						)
+						(xy -1.27 -1.27
+						)
+						(xy 0 -1.27
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+			)
+				(symbol "GND_1_1"
+					(pin power_in line
+					(at 0 0 270
+					)
+					(length 0
+					)
+					hide
+						(name "GND"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+			(symbol "power:VBUS"
+			(power
+			)
+				(pin_names
+				(offset 0
+				)
+			hide
+			)
+			(exclude_from_sim no
+			)
+			(in_bom yes
+			)
+			(on_board yes
+			)
+				(property "Reference" "#PWR"
+				(at 0 -3.81 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Value" "VBUS"
+				(at 0 3.81 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Footprint" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Datasheet" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(symbol "VBUS_0_1"
+					(polyline
+						(pts
+						(xy -0.76 1.27
+						)
+						(xy 0 2.54
+						)
+						(xy 0.76 1.27
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+					(polyline
+						(pts
+						(xy 0 0
+						)
+						(xy 0 2.54
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+			)
+				(symbol "VBUS_1_1"
+					(pin power_in line
+					(at 0 0 90
+					)
+					(length 0
+					)
+					hide
+						(name "VBUS"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+			(symbol "power:PWR_FLAG"
+			(power
+			)
+				(pin_names
+				(offset 0
+				)
+			hide
+			)
+			(exclude_from_sim no
+			)
+			(in_bom yes
+			)
+			(on_board yes
+			)
+				(property "Reference" "#FLG"
+				(at 0 1.91 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Value" "PWR_FLAG"
+				(at 0 3.81 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				)
+			)
+				(property "Footprint" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(property "Datasheet" ""
+				(at 0 0 0
+				)
+					(effects
+						(font
+						(size 1.27 1.27
+						)
+					)
+				hide
+				)
+			)
+				(symbol "PWR_FLAG_0_0"
+					(pin power_out line
+					(at 0 0 90
+					)
+					(length 0
+					)
+						(name "pwr"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+						(number "1"
+							(effects
+								(font
+								(size 1.016 1.016
+								)
+							)
+						)
+					)
+				)
+			)
+				(symbol "PWR_FLAG_0_1"
+					(polyline
+						(pts
+						(xy 0 0
+						)
+						(xy 0 1.27
+						)
+						(xy -1.02 1.91
+						)
+						(xy 0 2.54
+						)
+						(xy 1.02 1.91
+						)
+						(xy 0 1.27
+						)
+					)
+						(stroke
+						(width 0.254
+						)
+						(type default
+						)
+					)
+						(fill
+						(type none
+						)
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:RotaryEncoder_Switch"
+		)
+		(at 68.58 116.84 0
+		)
+		(unit 2
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "0a56899a-c304-488e-b177-d1e38993cc34"
+		)
+			(property "Reference" "RE1"
+			(at 68.58 107.34 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "EC11"
+			(at 68.58 109.94 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 68.58 116.84 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 68.58 116.84 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "S1"
+			(uuid "dbdda774-c906-4f19-89ac-c50fc3435d40"
+			)
+		)
+			(pin "S2"
+			(uuid "fcbbf435-e06f-4071-9c3c-a7f71314ff64"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "RE1"
+					)
+					(unit 2
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 73.66 123.19 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "7f6c0ecb-69b0-46bf-8be1-56c548cdedca"
+		)
+			(property "Reference" "D1"
+			(at 76.2 121.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 76.2 124.46 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 73.66 123.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 73.66 123.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "10e7a9a9-d913-4f24-8749-f0ce47d3e757"
+			)
+		)
+			(pin "2"
+			(uuid "23dae83f-7e1a-4b06-a529-7887c8cb9d27"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D1"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 73.66 116.84
+			)
+			(xy 73.66 119.38
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "8a693774-b37f-46ae-a0f8-03ec35e2cbb0"
+		)
+	)
+		(junction
+		(at 63.5 116.84
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "f8de5eaa-b138-4a02-aa84-f8e56854b324"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 96.52 116.84 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "a0d5ba80-92b1-4df7-aca2-cd5682be5b2e"
+		)
+			(property "Reference" "SW1"
+			(at 96.52 107.34 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 96.52 109.94 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 96.52 116.84 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 96.52 116.84 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "c812603a-89b9-4f28-92d5-51c8f0873854"
+			)
+		)
+			(pin "2"
+			(uuid "7625b478-fca5-4294-b9e6-47e9823ba2ac"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW1"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 101.6 123.19 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "3594195c-3062-46e2-a6db-5f639f47fddf"
+		)
+			(property "Reference" "D2"
+			(at 104.14 121.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 104.14 124.46 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 101.6 123.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 101.6 123.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "b0d6ab0f-1219-4156-84be-7ac3170f9983"
+			)
+		)
+			(pin "2"
+			(uuid "deef9d9c-d176-419f-a5b3-418e9682f687"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D2"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 101.6 116.84
+			)
+			(xy 101.6 119.38
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "a1afd93c-35c5-4049-863c-a1fc8b49fe8c"
+		)
+	)
+		(junction
+		(at 91.44 116.84
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "1f1f08c6-7484-4e87-85ad-6a85700e0e12"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 124.46 116.84 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "025f04a4-1428-4b9a-a630-c834a18ac004"
+		)
+			(property "Reference" "SW2"
+			(at 124.46 107.34 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 124.46 109.94 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 124.46 116.84 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 124.46 116.84 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "2f958e0b-9a39-4b0a-98cb-3d810419a700"
+			)
+		)
+			(pin "2"
+			(uuid "608c2cfa-609c-46c7-8407-543d30a3459e"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW2"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 129.54 123.19 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "edb691e5-5d9c-42f4-87d6-650f7bf63c54"
+		)
+			(property "Reference" "D3"
+			(at 132.08 121.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 132.08 124.46 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 129.54 123.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 129.54 123.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "39454844-8772-439a-a0cf-4fdb4a8a51cf"
+			)
+		)
+			(pin "2"
+			(uuid "63b40e70-405f-45b4-b230-3ec1a32e7aae"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D3"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 129.54 116.84
+			)
+			(xy 129.54 119.38
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "af4dd055-44df-4dd8-b3f7-7d26ba8809d5"
+		)
+	)
+		(junction
+		(at 119.38 116.84
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "853ac7b8-2eaa-4351-8036-1b5fc9649e8e"
+		)
+	)
+		(symbol
+		(lib_id "macropad:RotaryEncoder_Switch"
+		)
+		(at 152.4 116.84 0
+		)
+		(unit 2
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "5661619e-8e5c-4066-86cc-aee5e17257b8"
+		)
+			(property "Reference" "RE2"
+			(at 152.4 107.34 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "EC11"
+			(at 152.4 109.94 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 152.4 116.84 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 152.4 116.84 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "S1"
+			(uuid "0ff155fe-d157-4640-8ff3-a665226b2b11"
+			)
+		)
+			(pin "S2"
+			(uuid "f356a2ac-81a1-44c7-81d5-3ac57127748c"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "RE2"
+					)
+					(unit 2
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 157.48 123.19 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "90231f40-e010-4003-a37f-7e338aa07ce5"
+		)
+			(property "Reference" "D4"
+			(at 160.02 121.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 160.02 124.46 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 157.48 123.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 157.48 123.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "df095b19-86bc-422f-8f61-48ca05cc9073"
+			)
+		)
+			(pin "2"
+			(uuid "17551734-ef91-4f88-96d5-913ff62a9047"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D4"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 157.48 116.84
+			)
+			(xy 157.48 119.38
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "b8212ab4-090d-4f81-b5f6-7ab6d2dab928"
+		)
+	)
+		(junction
+		(at 147.32 116.84
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "a84e147b-1103-457f-ae36-13bb09e7c07f"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 68.58 139.7 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "b69e9ef5-b6c7-4ffd-9af3-24195d9b7699"
+		)
+			(property "Reference" "SW3"
+			(at 68.58 130.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 68.58 132.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 68.58 139.7 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 68.58 139.7 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "021cae5d-f16c-4633-aa26-e14f6ffdc29b"
+			)
+		)
+			(pin "2"
+			(uuid "46dcf8ef-69b1-49ac-9f54-7307041c48bc"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW3"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 73.66 146.05 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "2a3bec81-23f3-49f8-9ff1-d3bf7f0cc22d"
+		)
+			(property "Reference" "D5"
+			(at 76.2 144.78 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 76.2 147.32 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 73.66 146.05 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 73.66 146.05 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "112f98bd-9ab1-4e40-926c-d00fef1898ad"
+			)
+		)
+			(pin "2"
+			(uuid "e708c5b1-d38e-49da-89d6-7c1b46e1cd85"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D5"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 73.66 139.7
+			)
+			(xy 73.66 142.24
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "563bfb9c-6bec-4d1f-956a-a17ed3985cdb"
+		)
+	)
+		(junction
+		(at 63.5 139.7
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "e27cd660-d917-4aa2-b84c-e849791f2217"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 96.52 139.7 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "f03835d0-7a47-4a24-84e3-212b3c490317"
+		)
+			(property "Reference" "SW4"
+			(at 96.52 130.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 96.52 132.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 96.52 139.7 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 96.52 139.7 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "81e55f0e-617c-4447-b2e8-f831f9465c84"
+			)
+		)
+			(pin "2"
+			(uuid "f8bd9640-8a53-4128-924a-e997897f20a1"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW4"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 101.6 146.05 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "f5aaba84-a3b6-4080-b800-4b405f8bb39f"
+		)
+			(property "Reference" "D6"
+			(at 104.14 144.78 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 104.14 147.32 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 101.6 146.05 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 101.6 146.05 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "4c5d41ca-3fef-4351-b44d-1bd7776d0c20"
+			)
+		)
+			(pin "2"
+			(uuid "45d7f82d-a2ca-432f-9eb4-5c9ca4123107"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D6"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 101.6 139.7
+			)
+			(xy 101.6 142.24
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "7a08ebac-eff8-41d5-aaa2-f2bb39214354"
+		)
+	)
+		(junction
+		(at 91.44 139.7
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "a26de56f-23b1-4dcf-b98c-9e50e7c3079e"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 124.46 139.7 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "9c7f45ce-74e5-476a-9dac-96056e5e93f2"
+		)
+			(property "Reference" "SW5"
+			(at 124.46 130.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 124.46 132.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 124.46 139.7 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 124.46 139.7 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "cbf43474-a83e-4bb8-b334-939822c3991f"
+			)
+		)
+			(pin "2"
+			(uuid "1a384898-a022-49a0-bbfd-1e26c55c43b1"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW5"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 129.54 146.05 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "c8079384-03af-4435-8726-b135f4b0de88"
+		)
+			(property "Reference" "D7"
+			(at 132.08 144.78 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 132.08 147.32 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 129.54 146.05 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 129.54 146.05 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "dbeaf81f-41b1-4608-bd99-20d9f797a534"
+			)
+		)
+			(pin "2"
+			(uuid "b07ac350-ab43-451c-a911-7ecbf8abc2c3"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D7"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 129.54 139.7
+			)
+			(xy 129.54 142.24
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "6c35e685-bc70-44f1-80c2-7d718118a188"
+		)
+	)
+		(junction
+		(at 119.38 139.7
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "78c89aa3-62b0-4a43-833e-394fa46354cb"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 152.4 139.7 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "a1bbae78-cc81-4e50-a256-60f36750ee0d"
+		)
+			(property "Reference" "SW6"
+			(at 152.4 130.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 152.4 132.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 152.4 139.7 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 152.4 139.7 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "ec5a87c2-2a48-4e56-a1b2-ef8a6fca02e7"
+			)
+		)
+			(pin "2"
+			(uuid "2fa42206-f317-471b-abaf-705ad18cd3e3"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW6"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 157.48 146.05 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "a46fa018-2fff-422d-81ef-e551ae125028"
+		)
+			(property "Reference" "D8"
+			(at 160.02 144.78 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 160.02 147.32 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 157.48 146.05 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 157.48 146.05 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "eaa78b79-2b92-4fb9-ade8-f19f8371951b"
+			)
+		)
+			(pin "2"
+			(uuid "739d8d8c-a290-4b89-95b0-05d4336e5a11"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D8"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 157.48 139.7
+			)
+			(xy 157.48 142.24
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "e3e43eb3-526c-442d-bdd7-7c6fcffccf97"
+		)
+	)
+		(junction
+		(at 147.32 139.7
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "eae44a8c-d6e3-4f32-b864-fc4aa58b2253"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 68.58 162.56 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "73536d54-b9d7-4a2a-be01-3b82c1ba107d"
+		)
+			(property "Reference" "SW7"
+			(at 68.58 153.06 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 68.58 155.66 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 68.58 162.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 68.58 162.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "dd16ce56-625c-4f2f-90e4-7e539c57414c"
+			)
+		)
+			(pin "2"
+			(uuid "3c179c3e-556c-4211-a207-78ee49ed3266"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW7"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 73.66 168.91 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "25d77c09-ba4c-4641-b3b2-9668deb93d4d"
+		)
+			(property "Reference" "D9"
+			(at 76.2 167.64 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 76.2 170.18 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 73.66 168.91 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 73.66 168.91 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "a6e52146-d6d0-4e4a-94ce-7074cbec0c27"
+			)
+		)
+			(pin "2"
+			(uuid "5fe8868f-202e-46ee-8367-af956590f732"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D9"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 73.66 162.56
+			)
+			(xy 73.66 165.1
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "01c3ff2f-e824-4831-899c-ab2702d38ca1"
+		)
+	)
+		(junction
+		(at 63.5 162.56
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "fa4815aa-42c5-4b2c-a2ff-76107f0bbe07"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 96.52 162.56 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "9b9ea913-bd50-4871-92a6-55c892b7c056"
+		)
+			(property "Reference" "SW8"
+			(at 96.52 153.06 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 96.52 155.66 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 96.52 162.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 96.52 162.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "6259119f-b342-4987-9c9a-0bf3a60bb2af"
+			)
+		)
+			(pin "2"
+			(uuid "7d34d516-acfc-4e2c-a356-48996695a71a"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW8"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 101.6 168.91 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "605a8d7e-66b5-4990-8a3e-050443725d97"
+		)
+			(property "Reference" "D10"
+			(at 104.14 167.64 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 104.14 170.18 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 101.6 168.91 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 101.6 168.91 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "703577d4-b1a8-433d-91d7-63c60d4ad590"
+			)
+		)
+			(pin "2"
+			(uuid "69b10d37-6595-40ad-8df9-572f1a474bd4"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D10"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 101.6 162.56
+			)
+			(xy 101.6 165.1
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "1814ba9e-79de-42dd-8530-ff9ec36e9d69"
+		)
+	)
+		(junction
+		(at 91.44 162.56
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "4dd89700-6456-4d84-9a90-da8cff366b76"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 124.46 162.56 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "e9765eb5-8798-4ee5-b980-9a5f4234c40e"
+		)
+			(property "Reference" "SW9"
+			(at 124.46 153.06 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 124.46 155.66 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 124.46 162.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 124.46 162.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "fbfd5fb0-f704-4554-acd5-9cc990f45663"
+			)
+		)
+			(pin "2"
+			(uuid "db66e374-c3bd-49e7-86ec-9e28a3ff12fd"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW9"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 129.54 168.91 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "3d93501f-7b4c-4e6c-add6-dd4eef4c7214"
+		)
+			(property "Reference" "D11"
+			(at 132.08 167.64 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 132.08 170.18 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 129.54 168.91 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 129.54 168.91 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "dd946579-04f3-4809-8737-4eac12451445"
+			)
+		)
+			(pin "2"
+			(uuid "b5d6484c-05ab-4313-a374-ea9770f08035"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D11"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 129.54 162.56
+			)
+			(xy 129.54 165.1
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "25cb4c2b-f799-4d54-adb5-d14e4695bd9e"
+		)
+	)
+		(junction
+		(at 119.38 162.56
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "625f4073-a85a-42d7-8a37-96cf90c2ea14"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 152.4 162.56 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "02d3b51e-6239-46e0-ba71-f3e5f84f2c43"
+		)
+			(property "Reference" "SW10"
+			(at 152.4 153.06 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 152.4 155.66 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 152.4 162.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 152.4 162.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "8cdd27f9-9105-46d8-94f9-765fc35a00fd"
+			)
+		)
+			(pin "2"
+			(uuid "ffa2af06-e5a7-4a94-b43b-ec82f352d69b"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW10"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 157.48 168.91 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "deb64afb-bd8f-405b-82d4-ae0a5f2a8ead"
+		)
+			(property "Reference" "D12"
+			(at 160.02 167.64 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 160.02 170.18 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 157.48 168.91 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 157.48 168.91 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "4b5e794f-832d-4752-876c-ec90273fc067"
+			)
+		)
+			(pin "2"
+			(uuid "3c51bc5d-6210-4f6b-b48f-d09ac650c121"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D12"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 157.48 162.56
+			)
+			(xy 157.48 165.1
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "45cd0181-56e9-48bd-883d-ee068bcfb403"
+		)
+	)
+		(junction
+		(at 147.32 162.56
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "e2df7248-0b5d-4778-a884-45bc0da25811"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 68.58 185.42 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "768f52e0-55c1-4579-bb83-aed1c5fc8f59"
+		)
+			(property "Reference" "SW11"
+			(at 68.58 175.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 68.58 178.52 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 68.58 185.42 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 68.58 185.42 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "84b1045b-6dc5-413f-b600-f301f5d276d6"
+			)
+		)
+			(pin "2"
+			(uuid "dfd3ba35-92f2-4316-acd5-edd98880d18b"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW11"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 73.66 191.77 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "d76aa64e-1d3d-46e7-aacc-13f43ae4d204"
+		)
+			(property "Reference" "D13"
+			(at 76.2 190.5 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 76.2 193.04 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 73.66 191.77 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 73.66 191.77 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "29b09aaf-8629-44bc-acf7-e4eae21d9515"
+			)
+		)
+			(pin "2"
+			(uuid "8ac7867d-6a56-407d-82dd-c7320a5bfc3a"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D13"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 73.66 185.42
+			)
+			(xy 73.66 187.96
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "74c2faa8-6406-4987-ad3f-6b7e95c42654"
+		)
+	)
+		(junction
+		(at 63.5 185.42
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "ec046e08-2491-4b0f-a6cc-39a102f97dc6"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 96.52 185.42 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "79ff6bda-03d1-4188-8094-12fcba03c59e"
+		)
+			(property "Reference" "SW12"
+			(at 96.52 175.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 96.52 178.52 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 96.52 185.42 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 96.52 185.42 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "fa603761-cb26-4502-ae41-738de2cc3aa6"
+			)
+		)
+			(pin "2"
+			(uuid "32be7175-415a-44b0-aaee-3157206805d5"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW12"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 101.6 191.77 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "59cec333-5b8d-4aed-88d2-a2ea1f5d1de6"
+		)
+			(property "Reference" "D14"
+			(at 104.14 190.5 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 104.14 193.04 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 101.6 191.77 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 101.6 191.77 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "b778375a-fd01-4a70-9e20-bfbec532d598"
+			)
+		)
+			(pin "2"
+			(uuid "9267a1bc-504d-42ae-af53-33ac312b721c"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D14"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 101.6 185.42
+			)
+			(xy 101.6 187.96
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "07e2a2fb-fc49-4f62-adea-cd2be28ed86b"
+		)
+	)
+		(junction
+		(at 91.44 185.42
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "20b6380b-e243-4881-b502-4ae80bb63c39"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 124.46 185.42 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "43316d31-feca-413f-abe2-c35f35ef4fff"
+		)
+			(property "Reference" "SW13"
+			(at 124.46 175.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 124.46 178.52 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 124.46 185.42 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 124.46 185.42 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "242425c4-8321-45c8-9e3a-ade2b9184626"
+			)
+		)
+			(pin "2"
+			(uuid "abbcbf5c-9ae0-4c93-bf5a-dae7a28eb394"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW13"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 129.54 191.77 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "56b1779c-71c5-480f-a39e-645356f785dc"
+		)
+			(property "Reference" "D15"
+			(at 132.08 190.5 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 132.08 193.04 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 129.54 191.77 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 129.54 191.77 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "d03e61c2-4b34-41dc-8d95-775db0b1cec3"
+			)
+		)
+			(pin "2"
+			(uuid "449e3118-c3d3-43b4-b3df-5535fb2c29a4"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D15"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 129.54 185.42
+			)
+			(xy 129.54 187.96
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "0ec6fb94-c4e3-4a9e-b2ba-8ab81a1128a3"
+		)
+	)
+		(junction
+		(at 119.38 185.42
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "294b6b30-488c-4499-b432-7bfb28fb2627"
+		)
+	)
+		(symbol
+		(lib_id "macropad:SW_PUSH"
+		)
+		(at 152.4 185.42 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "639fae2b-97ba-45f8-a109-80ebb3ca5acb"
+		)
+			(property "Reference" "SW14"
+			(at 152.4 175.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "SW_PUSH"
+			(at 152.4 178.52 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:SW_choc_v2_1u"
+			(at 152.4 185.42 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 152.4 185.42 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "4b6c7721-8a91-4a89-a869-ccd7558935dd"
+			)
+		)
+			(pin "2"
+			(uuid "0c10aeab-4b4a-46fc-8c03-7f855e463314"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "SW14"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:D"
+		)
+		(at 157.48 191.77 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "f0ac6cc7-683c-4cb3-bff1-594ba468e6e6"
+		)
+			(property "Reference" "D16"
+			(at 160.02 190.5 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "1N4148"
+			(at 160.02 193.04 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "macropad:D_SOD-123"
+			(at 157.48 191.77 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 157.48 191.77 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "3d242970-bb8e-440e-b28a-3684aef3e9bb"
+			)
+		)
+			(pin "2"
+			(uuid "656dac24-48aa-4b07-a0a0-9385bca812d6"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "D16"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 157.48 185.42
+			)
+			(xy 157.48 187.96
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "caf6e4c5-525d-4e41-8e5b-635b61559ee8"
+		)
+	)
+		(junction
+		(at 147.32 185.42
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "32425517-affd-474c-abca-e6711088b796"
+		)
+	)
+		(wire
+			(pts
+			(xy 63.5 104.14
+			)
+			(xy 63.5 116.84
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "08598377-09a7-4872-babb-7efe841531c4"
+		)
+	)
+		(wire
+			(pts
+			(xy 63.5 116.84
+			)
+			(xy 63.5 139.7
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "bccf8396-ca40-43b9-9580-0df443845fb3"
+		)
+	)
+		(wire
+			(pts
+			(xy 63.5 139.7
+			)
+			(xy 63.5 162.56
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "8be1ce9c-9529-45a9-9fea-ef8df089816d"
+		)
+	)
+		(wire
+			(pts
+			(xy 63.5 162.56
+			)
+			(xy 63.5 185.42
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "addb8c76-6915-4c54-911f-7514dfbf8535"
+		)
+	)
+		(global_label "COL0"
+		(shape input
+		)
+		(at 63.5 104.14 90
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "966ac205-2b3f-45e9-b272-72cfde620321"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 104.14 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 91.44 104.14
+			)
+			(xy 91.44 116.84
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "272d894f-c170-4a60-adb8-b87b27a77c44"
+		)
+	)
+		(wire
+			(pts
+			(xy 91.44 116.84
+			)
+			(xy 91.44 139.7
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "f530a319-9c22-47cc-9f42-312d5d3ddcb9"
+		)
+	)
+		(wire
+			(pts
+			(xy 91.44 139.7
+			)
+			(xy 91.44 162.56
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "77e5c185-28d6-4ad8-8bd7-10ee464fd933"
+		)
+	)
+		(wire
+			(pts
+			(xy 91.44 162.56
+			)
+			(xy 91.44 185.42
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "5085742d-aad0-4343-953f-e115028f3ade"
+		)
+	)
+		(global_label "COL1"
+		(shape input
+		)
+		(at 91.44 104.14 90
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "ff82f6f4-8edf-4db2-b699-d1a577b2a4aa"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 104.14 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 119.38 104.14
+			)
+			(xy 119.38 116.84
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "74f3a863-9be3-444c-9686-fe8a97ddb801"
+		)
+	)
+		(wire
+			(pts
+			(xy 119.38 116.84
+			)
+			(xy 119.38 139.7
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "bb82119d-8d2f-406b-be82-41f01797ad19"
+		)
+	)
+		(wire
+			(pts
+			(xy 119.38 139.7
+			)
+			(xy 119.38 162.56
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "579aa413-4844-4e43-9ab4-7f535a3ce78a"
+		)
+	)
+		(wire
+			(pts
+			(xy 119.38 162.56
+			)
+			(xy 119.38 185.42
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "4552fa5b-eedc-4be5-8892-fadc919f462b"
+		)
+	)
+		(global_label "COL2"
+		(shape input
+		)
+		(at 119.38 104.14 90
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "7059e770-1ba2-4b0e-991c-5a55a72b9eb2"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 104.14 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 147.32 104.14
+			)
+			(xy 147.32 116.84
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "6527f232-30a0-4bd3-8c8b-30657603a55a"
+		)
+	)
+		(wire
+			(pts
+			(xy 147.32 116.84
+			)
+			(xy 147.32 139.7
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "a386bedb-c7fc-452c-9934-c367f90c5928"
+		)
+	)
+		(wire
+			(pts
+			(xy 147.32 139.7
+			)
+			(xy 147.32 162.56
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "9606a901-74d7-46ce-ac24-c8ee7b1079e3"
+		)
+	)
+		(wire
+			(pts
+			(xy 147.32 162.56
+			)
+			(xy 147.32 185.42
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "0a14b369-1462-4642-b425-cc90e069e3bb"
+		)
+	)
+		(global_label "COL3"
+		(shape input
+		)
+		(at 147.32 104.14 90
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "4d385859-080f-4089-a502-8c9872c348b8"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 104.14 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 38.1 127
+			)
+			(xy 73.66 127
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "802071e3-c9ca-42c4-b622-2dfce392e36a"
+		)
+	)
+		(wire
+			(pts
+			(xy 73.66 127
+			)
+			(xy 101.6 127
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "804cda7d-7913-45be-964f-11387f3cdeb5"
+		)
+	)
+		(wire
+			(pts
+			(xy 101.6 127
+			)
+			(xy 129.54 127
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "7d906d2d-256e-492e-b170-276c31079ab2"
+		)
+	)
+		(wire
+			(pts
+			(xy 129.54 127
+			)
+			(xy 157.48 127
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "f0c6d3c5-4876-4795-8df8-e08caf556c95"
+		)
+	)
+		(junction
+		(at 73.66 127
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "e2262308-f039-4cba-abe3-13ce15907ce1"
+		)
+	)
+		(junction
+		(at 101.6 127
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "5062c6eb-529f-4375-9cbb-eb19ba7ea387"
+		)
+	)
+		(junction
+		(at 129.54 127
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "f7e480d0-c902-4af8-a9b8-fd53727e6da3"
+		)
+	)
+		(global_label "ROW0"
+		(shape input
+		)
+		(at 38.1 127 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "69cfb97e-26b2-4792-b749-2bb5b078e323"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 127 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 38.1 149.86
+			)
+			(xy 73.66 149.86
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "423a6fca-bfc4-4f5c-8b76-eea0532a4c79"
+		)
+	)
+		(wire
+			(pts
+			(xy 73.66 149.86
+			)
+			(xy 101.6 149.86
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "200133e5-4996-48bc-91bc-959503024cb2"
+		)
+	)
+		(wire
+			(pts
+			(xy 101.6 149.86
+			)
+			(xy 129.54 149.86
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "252b9c8f-e6ff-48ca-988e-1f73170db6b5"
+		)
+	)
+		(wire
+			(pts
+			(xy 129.54 149.86
+			)
+			(xy 157.48 149.86
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "6e6c1b58-4a1f-4fe2-bcd7-66757be202d0"
+		)
+	)
+		(junction
+		(at 73.66 149.86
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "cd99fb8c-8ca9-4596-8db9-d046989745ca"
+		)
+	)
+		(junction
+		(at 101.6 149.86
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "d100ca1a-ad8c-4f61-925d-dc69c5e71fae"
+		)
+	)
+		(junction
+		(at 129.54 149.86
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "8535ad08-07d0-4dc6-b0e1-1bc201bac5db"
+		)
+	)
+		(global_label "ROW1"
+		(shape input
+		)
+		(at 38.1 149.86 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "b310bd4a-fc7d-4608-b701-7ea50b700e39"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 149.86 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 38.1 172.72
+			)
+			(xy 73.66 172.72
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "347f5832-7a43-4c27-a046-0a5208ebbfb2"
+		)
+	)
+		(wire
+			(pts
+			(xy 73.66 172.72
+			)
+			(xy 101.6 172.72
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "3f6e0c6c-a9b3-484e-bb01-1e872cac216f"
+		)
+	)
+		(wire
+			(pts
+			(xy 101.6 172.72
+			)
+			(xy 129.54 172.72
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "f353c10e-f2cd-4971-969b-b7b36a1f5c3b"
+		)
+	)
+		(wire
+			(pts
+			(xy 129.54 172.72
+			)
+			(xy 157.48 172.72
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "9fa64756-ac36-4540-a60c-8f3f0cdbe9d1"
+		)
+	)
+		(junction
+		(at 73.66 172.72
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "26d1f5cb-55bf-4b2c-9fb6-db5096bf88ec"
+		)
+	)
+		(junction
+		(at 101.6 172.72
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "059a8a21-9279-40fc-9656-a1e65eb2078a"
+		)
+	)
+		(junction
+		(at 129.54 172.72
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "4a3456e4-e702-4004-bf14-d878b5130d30"
+		)
+	)
+		(global_label "ROW2"
+		(shape input
+		)
+		(at 38.1 172.72 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "84783238-54f0-46ff-bf01-0767e94b4313"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 172.72 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 38.1 195.58
+			)
+			(xy 73.66 195.58
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "481fbe11-99d1-4e8a-b291-a7470001ce5e"
+		)
+	)
+		(wire
+			(pts
+			(xy 73.66 195.58
+			)
+			(xy 101.6 195.58
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "71f5c54a-e2c3-435c-abdc-ab42e63a82b7"
+		)
+	)
+		(wire
+			(pts
+			(xy 101.6 195.58
+			)
+			(xy 129.54 195.58
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "36ed582f-2c6f-4c61-ba03-868f3bc739cb"
+		)
+	)
+		(wire
+			(pts
+			(xy 129.54 195.58
+			)
+			(xy 157.48 195.58
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "a6117542-8158-4fce-a0b1-169dad7547ac"
+		)
+	)
+		(junction
+		(at 73.66 195.58
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "4a774e7b-eb42-47c4-98c6-0f801df8d168"
+		)
+	)
+		(junction
+		(at 101.6 195.58
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "b710b5e1-c2ee-428f-893f-b6ea1aebf313"
+		)
+	)
+		(junction
+		(at 129.54 195.58
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "7509c543-229c-4fb6-a8ad-6fe45d282cd3"
+		)
+	)
+		(global_label "ROW3"
+		(shape input
+		)
+		(at 38.1 195.58 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "655b438f-0a37-4f11-95f7-7b98bbb8f7fb"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 195.58 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:KB2040"
+		)
+		(at 88.9 50.8 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "fd36deb5-d224-4735-abec-c5374a9d0d7d"
+		)
+			(property "Reference" "U1"
+			(at 88.9 29.21 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "KB2040"
+			(at 88.9 72.39 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:ProMicro_USBup"
+			(at 88.9 50.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 88.9 50.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "9943b305-0259-4e7b-ad0b-d658643cb843"
+			)
+		)
+			(pin "2"
+			(uuid "03828e1d-8e79-4be1-a4f6-b51c2367426d"
+			)
+		)
+			(pin "3"
+			(uuid "91e3311b-4574-4f26-891c-d7ee7b4698e6"
+			)
+		)
+			(pin "4"
+			(uuid "b3a3995c-2c6c-4b73-8d65-ab3eb45b2e0a"
+			)
+		)
+			(pin "5"
+			(uuid "56ad2961-81e0-4658-905a-6061b9e92a81"
+			)
+		)
+			(pin "6"
+			(uuid "d4be8daf-11e1-4e0f-8510-8436b16f98e8"
+			)
+		)
+			(pin "7"
+			(uuid "c4bae0e6-24d9-4ea0-83e6-653fad75ed02"
+			)
+		)
+			(pin "8"
+			(uuid "2cb65868-e66e-4650-9af9-30c0dc2f89b5"
+			)
+		)
+			(pin "9"
+			(uuid "2fb0182c-7e33-4a07-ba77-fc8a53958953"
+			)
+		)
+			(pin "10"
+			(uuid "ce66a64d-143e-4126-84f0-052848de7c58"
+			)
+		)
+			(pin "11"
+			(uuid "1b8293ce-bc92-421e-b981-8d03fc993d2d"
+			)
+		)
+			(pin "12"
+			(uuid "97d13462-679f-4be6-b554-08200740ac6c"
+			)
+		)
+			(pin "13"
+			(uuid "e3b9b7ad-5654-424b-88cd-348db39e07ae"
+			)
+		)
+			(pin "14"
+			(uuid "42d4eaf4-ac80-4c96-93c0-0b785ec85171"
+			)
+		)
+			(pin "15"
+			(uuid "918ab5fd-bb80-4e8f-95ca-9247063ce008"
+			)
+		)
+			(pin "16"
+			(uuid "65f2b0d6-321c-44fc-a53f-a85f0c683cb4"
+			)
+		)
+			(pin "17"
+			(uuid "e2de3ee2-53d8-41b0-a155-c8a86258b6e2"
+			)
+		)
+			(pin "18"
+			(uuid "8a35ffa4-40ff-48dc-81c6-7f59466c2a72"
+			)
+		)
+			(pin "19"
+			(uuid "9820c504-9a09-48f2-80a5-55cade83b4e6"
+			)
+		)
+			(pin "20"
+			(uuid "a17871be-b065-46bd-aa75-e6acc20247f0"
+			)
+		)
+			(pin "21"
+			(uuid "9fb4bb2b-9f86-4ff6-8303-a826d8d9ecf6"
+			)
+		)
+			(pin "22"
+			(uuid "c0e88616-3e56-4618-ac0a-8bc2ec186ec5"
+			)
+		)
+			(pin "23"
+			(uuid "bfd474b1-6817-4605-9172-c5932b7497bb"
+			)
+		)
+			(pin "24"
+			(uuid "4602d981-3918-4429-b516-360b3c485652"
+			)
+		)
+			(pin "25"
+			(uuid "73c1dd67-091b-44a6-8520-ce6e1c18b9be"
+			)
+		)
+			(pin "26"
+			(uuid "157a8344-8942-4ff9-8e29-f443dbeb7e6d"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "U1"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(global_label "USB_DP"
+		(shape input
+		)
+		(at 71.12 35.56 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "66985f27-4395-40f5-89fb-b9e68ab9d930"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 35.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(no_connect
+		(at 71.12 38.1
+		)
+		(uuid "c4c1c28a-48b0-4770-9e0e-1f1622bed075"
+		)
+	)
+		(no_connect
+		(at 71.12 40.64
+		)
+		(uuid "afec08ee-fdde-496a-bfdc-7e9f5f17b6e8"
+		)
+	)
+		(wire
+			(pts
+			(xy 71.12 43.18
+			)
+			(xy 58.42 43.18
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "8dbda5a4-32ae-43fc-84f7-e3b8d07e433c"
+		)
+	)
+		(wire
+			(pts
+			(xy 71.12 45.72
+			)
+			(xy 58.42 45.72
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "c70b3a99-5869-44bf-b2a3-9002b876fba3"
+		)
+	)
+		(global_label "E2_A"
+		(shape input
+		)
+		(at 71.12 48.26 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "c633dfb0-b5d3-4c02-adff-3317625db13b"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 48.26 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "E2_B"
+		(shape input
+		)
+		(at 71.12 50.8 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "0532967e-ea2e-4d6e-bf14-7578cf02d1cd"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 50.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "ROW0"
+		(shape input
+		)
+		(at 71.12 53.34 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "89baf8ed-ca8f-4241-a2f1-1521c0300c1a"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 53.34 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "ROW1"
+		(shape input
+		)
+		(at 71.12 55.88 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "f9e6f09f-f736-4439-a0d3-cbe00a81f463"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 55.88 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "ROW2"
+		(shape input
+		)
+		(at 71.12 58.42 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "01ec01a6-ca27-40cb-8664-7d80d740b951"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 58.42 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "ROW3"
+		(shape input
+		)
+		(at 71.12 60.96 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "2f90439b-b884-4f18-be07-d8f6c9a3982d"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 60.96 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "COL0"
+		(shape input
+		)
+		(at 71.12 63.5 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "8cf58625-f591-465f-bf4c-7e65cd33e748"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 63.5 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "COL1"
+		(shape input
+		)
+		(at 71.12 66.04 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "76c9c0f3-c950-4658-8b43-3cef3bbf6f53"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 66.04 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 58.42 43.18
+			)
+			(xy 58.42 45.72
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "3322d67e-9d4d-49be-8237-30b9aea5bccd"
+		)
+	)
+		(junction
+		(at 58.42 45.72
+		)
+		(diameter 0
+		)
+		(color 0 0 0 0
+		)
+		(uuid "dbb9a423-3112-4cea-a9f4-044348c3d581"
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 58.42 45.72 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "c84d72f6-9a02-4488-a326-15b98faaca34"
+		)
+			(property "Reference" "#PWR001"
+			(at 58.42 52.07 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 58.42 49.53 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 58.42 45.72 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 58.42 45.72 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "d93e1705-d0b0-4e5b-8c7b-40de6fd65252"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR001"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(global_label "USB_DM"
+		(shape input
+		)
+		(at 106.68 35.56 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "f18ea150-f6dc-42b4-af49-f62c13e11200"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 35.56 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "VBUS"
+		(shape input
+		)
+		(at 106.68 38.1 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "e9fcdf0d-f25c-4b9c-b0a3-fd9906e97c78"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 38.1 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(wire
+			(pts
+			(xy 106.68 40.64
+			)
+			(xy 111.76 40.64
+			)
+		)
+			(stroke
+			(width 0
+			)
+			(type default
+			)
+		)
+		(uuid "6b366854-5bc7-4561-86cc-1e27b107fc7d"
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 111.76 40.64 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "e6f80a67-8946-4b23-918d-644960df4397"
+		)
+			(property "Reference" "#PWR002"
+			(at 111.76 46.99 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 111.76 44.45 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 111.76 40.64 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 111.76 40.64 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "027d8bac-4348-435f-8f2c-48e6ade439e2"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR002"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(no_connect
+		(at 106.68 43.18
+		)
+		(uuid "6bf371fc-ce8e-4b38-88f3-33856be6bbe3"
+		)
+	)
+		(no_connect
+		(at 106.68 45.72
+		)
+		(uuid "28488892-9ba4-4745-8f96-d07975dcff5e"
+		)
+	)
+		(no_connect
+		(at 106.68 48.26
+		)
+		(uuid "ede907b1-9ecc-421b-91b7-a63f7347716e"
+		)
+	)
+		(global_label "E1_B"
+		(shape input
+		)
+		(at 106.68 50.8 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "0b8a2d04-b276-4c0f-a51d-dd2873a16c09"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 50.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "E1_A"
+		(shape input
+		)
+		(at 106.68 53.34 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "abfeb92d-4df1-4241-a81f-a332767049d9"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 53.34 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "COL3"
+		(shape input
+		)
+		(at 106.68 55.88 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "3600688c-0b63-4879-9867-6651d7eac854"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 55.88 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(no_connect
+		(at 106.68 58.42
+		)
+		(uuid "c8cc1aae-787a-4068-8eac-2dc6357196d4"
+		)
+	)
+		(no_connect
+		(at 106.68 60.96
+		)
+		(uuid "5b32e010-11f2-4487-84d5-8c10b911dcda"
+		)
+	)
+		(no_connect
+		(at 106.68 63.5
+		)
+		(uuid "a713567b-10f9-4021-8a8a-414d658bdd9e"
+		)
+	)
+		(global_label "COL2"
+		(shape input
+		)
+		(at 106.68 66.04 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "2c9248b6-02d1-4d05-a2c0-20ffeb401cb1"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 66.04 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:RotaryEncoder_Switch"
+		)
+		(at 226.06 121.92 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "0fdfb621-3b10-4c77-bc6a-7afca95a5d02"
+		)
+			(property "Reference" "RE1"
+			(at 226.06 113.03 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "EC11"
+			(at 226.06 130.81 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 226.06 121.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 226.06 121.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "A"
+			(uuid "47be0dde-3df4-4851-9d91-3a1a074ebf49"
+			)
+		)
+			(pin "B"
+			(uuid "489f4b29-52f9-4eb5-a323-316f8ecd95a5"
+			)
+		)
+			(pin "C"
+			(uuid "1c44ed21-79e7-49b9-abd7-dfa20fe5c04a"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "RE1"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(global_label "E1_A"
+		(shape input
+		)
+		(at 218.44 119.38 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "f8cce696-f4ea-47b0-9b00-b5a7f8969f2b"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.44 119.38 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "E1_B"
+		(shape input
+		)
+		(at 218.44 124.46 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "4b373791-e1ee-43da-9ea3-b13c33eb1d45"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.44 124.46 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 233.68 121.92 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "61c12091-e010-4f2a-8f46-e8c84668ff88"
+		)
+			(property "Reference" "#PWR003"
+			(at 233.68 128.27 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 233.68 125.73 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 233.68 121.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 233.68 121.92 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "c45439b8-d800-46ff-968f-030ab33357f7"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR003"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:RotaryEncoder_Switch"
+		)
+		(at 226.06 152.4 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "5943af6c-66d2-4d7c-8c33-713501c27025"
+		)
+			(property "Reference" "RE2"
+			(at 226.06 143.51 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "EC11"
+			(at 226.06 161.29 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" "macropad:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 226.06 152.4 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 226.06 152.4 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "A"
+			(uuid "252e6cb6-541d-40e1-9038-1b2971f523e8"
+			)
+		)
+			(pin "B"
+			(uuid "2f4e28e8-4b48-4f6a-966f-e8b04da265be"
+			)
+		)
+			(pin "C"
+			(uuid "36e8048a-9495-4fad-ab3c-7251aa658529"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "RE2"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(global_label "E2_A"
+		(shape input
+		)
+		(at 218.44 149.86 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "e92728a0-390c-4f25-9f60-b2bf15981375"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.44 149.86 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "E2_B"
+		(shape input
+		)
+		(at 218.44 154.94 180
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify right
+			)
+		)
+		(uuid "a5923492-d4d2-440b-b88d-2557c025fbf2"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.44 154.94 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 233.68 152.4 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "9d5c4e5b-f833-4681-b4b8-ba8a3fbc57a1"
+		)
+			(property "Reference" "#PWR004"
+			(at 233.68 158.75 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 233.68 156.21 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 233.68 152.4 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 233.68 152.4 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "e9d64415-f256-497d-a848-21d5e343d891"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR004"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:USB_C_Receptacle"
+		)
+		(at 304.8 76.2 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "c103541d-2ed2-4dc8-80d5-d64f1b68bdf7"
+		)
+			(property "Reference" "J1"
+			(at 304.8 38.1 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Value" "USB_C"
+			(at 304.8 114.3 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 304.8 76.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 304.8 76.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "A4B9"
+			(uuid "0a4fab77-4f5e-41ce-9274-c6a1e2c1b591"
+			)
+		)
+			(pin "B4A9"
+			(uuid "dc4be784-ae63-48d4-a637-9488717fda82"
+			)
+		)
+			(pin "A5"
+			(uuid "1b30fc7d-d62a-4bcb-addb-031d022fe66d"
+			)
+		)
+			(pin "B5"
+			(uuid "29273559-d32b-4159-ad60-a064a85cf161"
+			)
+		)
+			(pin "A6"
+			(uuid "c9894f9e-bdf3-42ed-9641-d65e2e302de1"
+			)
+		)
+			(pin "B6"
+			(uuid "c67b9f0f-c0f0-4ac2-874c-13e2014166f3"
+			)
+		)
+			(pin "A7"
+			(uuid "dabc1680-46d1-41c3-abfa-8b872d8c2f72"
+			)
+		)
+			(pin "B7"
+			(uuid "0e541371-2dc6-4842-9c73-bac14829bdf2"
+			)
+		)
+			(pin "A8"
+			(uuid "2dbabaf7-2574-428a-9cb3-3cc2781a9e3a"
+			)
+		)
+			(pin "B8"
+			(uuid "7fe7b0ef-a198-4a88-bd81-7dc430ee903b"
+			)
+		)
+			(pin "A1B12"
+			(uuid "bf1f5728-6243-4817-92b5-3c15bee78d49"
+			)
+		)
+			(pin "B1A12"
+			(uuid "6130fb58-c8df-4411-b721-b1f1eba9f419"
+			)
+		)
+			(pin "S1"
+			(uuid "e17a3bfc-4175-4d8a-bb9e-3716b70490a6"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "J1"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:VBUS"
+		)
+		(at 314.96 45.72 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "093c4126-bd8e-44cd-a912-6eea59f386b1"
+		)
+			(property "Reference" "#PWR005"
+			(at 314.96 39.37 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "VBUS"
+			(at 314.96 41.91 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 314.96 45.72 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 314.96 45.72 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "e8cbfac5-1ed4-4590-ae79-d990804a5f66"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR005"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:VBUS"
+		)
+		(at 314.96 50.8 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "32d65822-800a-4d20-933f-cd1642f75b7b"
+		)
+			(property "Reference" "#PWR006"
+			(at 314.96 44.45 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "VBUS"
+			(at 314.96 46.99 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 314.96 50.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 314.96 50.8 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "505fd50b-c859-4136-957b-7df75db12c5b"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR006"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(global_label "CC1"
+		(shape input
+		)
+		(at 314.96 55.88 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "57506662-a82b-4ee8-bd70-92314ac103f6"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 55.88 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "CC2"
+		(shape input
+		)
+		(at 314.96 60.96 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "69b0767f-8c2f-4f5a-8379-e7d19f874931"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 60.96 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "USB_DP"
+		(shape input
+		)
+		(at 314.96 66.04 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "cbdea9fc-d0c3-49bc-b111-bac31fd334e6"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 66.04 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "USB_DP"
+		(shape input
+		)
+		(at 314.96 71.12 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "9cb4cbfd-6cad-44e7-9898-160f84213d59"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 71.12 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "USB_DM"
+		(shape input
+		)
+		(at 314.96 76.2 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "9ab3c1b0-2a65-433c-99dd-aabe8c65d1dc"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 76.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(global_label "USB_DM"
+		(shape input
+		)
+		(at 314.96 81.28 0
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "3019c2e1-eb20-49e2-a959-14f875ef757a"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 81.28 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(no_connect
+		(at 314.96 86.36
+		)
+		(uuid "f02d8245-10b8-499c-b9ec-93b29f449ece"
+		)
+	)
+		(no_connect
+		(at 314.96 91.44
+		)
+		(uuid "a6f69d88-02c3-4414-87ec-be04aeeee9e6"
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 314.96 96.52 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "b60bdfbf-7625-49e1-ae89-959ca65180a0"
+		)
+			(property "Reference" "#PWR007"
+			(at 314.96 102.87 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 314.96 100.33 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 314.96 96.52 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 314.96 96.52 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "79906485-7a02-4d87-b074-66c9de62139e"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR007"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 314.96 101.6 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "b6e5d3e6-abd9-4e36-8734-4ae618db7432"
+		)
+			(property "Reference" "#PWR008"
+			(at 314.96 107.95 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 314.96 105.41 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 314.96 101.6 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 314.96 101.6 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "5491c7c0-d151-4555-b86a-27742f3a91bc"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR008"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 314.96 106.68 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "a5dfa331-d499-40c5-8058-3a4728cd9dc7"
+		)
+			(property "Reference" "#PWR009"
+			(at 314.96 113.03 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 314.96 110.49 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 314.96 106.68 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 314.96 106.68 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "59707672-3275-4447-b52a-811935e887df"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR009"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:R"
+		)
+		(at 355.6 76.2 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "7db8cfb0-05b3-4c7a-8bbf-c56353fa006b"
+		)
+			(property "Reference" "R1"
+			(at 358.14 74.93 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "5.1k"
+			(at 358.14 77.47 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 355.6 76.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 355.6 76.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "5393459e-c043-449d-99ef-150071c3ed00"
+			)
+		)
+			(pin "2"
+			(uuid "12ec61a1-859e-4530-addf-eb017001c915"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "R1"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(global_label "CC1"
+		(shape input
+		)
+		(at 355.6 72.39 90
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "1a387923-7df9-4948-85e3-2329db2d2508"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 72.39 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 355.6 80.01 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "8fa974ed-05e3-472a-9112-322c0ed8c1b6"
+		)
+			(property "Reference" "#PWR010"
+			(at 355.6 86.36 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 355.6 83.82 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 355.6 80.01 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 355.6 80.01 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "ff7377a6-80a2-4d24-bba6-21bfe54d78c7"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR010"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "macropad:R"
+		)
+		(at 375.92 76.2 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "f8e27496-272d-4db5-8e3a-bea52e3472d7"
+		)
+			(property "Reference" "R2"
+			(at 378.46 74.93 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Value" "5.1k"
+			(at 378.46 77.47 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+				(justify left
+				)
+			)
+		)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 375.92 76.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 375.92 76.2 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "6b85808a-2a95-4336-bf6f-35078e6e61d7"
+			)
+		)
+			(pin "2"
+			(uuid "1d09a5c1-9494-47fd-b9c1-9544352886b2"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "R2"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(global_label "CC2"
+		(shape input
+		)
+		(at 375.92 72.39 90
+		)
+		(fields_autoplaced yes
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "ba17be04-ca33-4157-b4b1-58bb05552915"
+		)
+			(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.92 72.39 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 375.92 80.01 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "54d9dbcc-c18b-4ab1-9140-13ea26a95a28"
+		)
+			(property "Reference" "#PWR011"
+			(at 375.92 86.36 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 375.92 83.82 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 375.92 80.01 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 375.92 80.01 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "f3b0cf36-e767-4109-aafc-32bb8f2a5676"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR011"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:GND"
+		)
+		(at 348 140 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "aee89f8c-cbcc-4c01-8aeb-87c7d854b9f5"
+		)
+			(property "Reference" "#PWR012"
+			(at 348 146.35 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "GND"
+			(at 348 143.81 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 348 140 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 348 140 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "e4958455-ae9e-4da1-bfd5-0e00d7176359"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR012"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:PWR_FLAG"
+		)
+		(at 348 140 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "6ca515f5-a773-45c1-a95d-7cbcd7aeb6e9"
+		)
+			(property "Reference" "#FLG013"
+			(at 348 146.35 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "PWR_FLAG"
+			(at 348 136.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 348 140 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 348 140 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "08b2a18b-39f9-4582-991c-c2688603955c"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#FLG013"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:VBUS"
+		)
+		(at 368 140 0
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "74edc8e0-a8bf-4cb6-9127-140af6ed4e6f"
+		)
+			(property "Reference" "#PWR014"
+			(at 368 133.65 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "VBUS"
+			(at 368 136.19 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 368 140 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 368 140 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "a729659c-3ec0-4114-81e2-697848ef903b"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#PWR014"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(symbol
+		(lib_id "power:PWR_FLAG"
+		)
+		(at 368 140 180
+		)
+		(unit 1
+		)
+		(exclude_from_sim no
+		)
+		(in_bom yes
+		)
+		(on_board yes
+		)
+		(dnp no
+		)
+		(uuid "78e44dc7-b189-431e-90d6-1113eda9db6a"
+		)
+			(property "Reference" "#FLG015"
+			(at 368 146.35 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Value" "PWR_FLAG"
+			(at 368 143.81 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			)
+		)
+			(property "Footprint" ""
+			(at 368 140 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(property "Datasheet" ""
+			(at 368 140 0
+			)
+				(effects
+					(font
+					(size 1.27 1.27
+					)
+				)
+			hide
+			)
+		)
+			(pin "1"
+			(uuid "1d5abd62-caa9-4dda-a2e5-15b2adaf6e8c"
+			)
+		)
+			(instances
+				(project "macropad"
+					(path "/0346c8e1-8ef4-42ce-9fad-c5cba155696a"
+					(reference "#FLG015"
+					)
+					(unit 1
+					)
+				)
+			)
+		)
+	)
+		(text "Matrix: COL -> switch -> diode -> ROW (COL2ROW). Encoder push switches are matrix keys at row0 col0 / col3."
+		(exclude_from_sim no
+		)
+		(at 38.1 266.7 0
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "066089bc-39ff-4230-8e50-641d5ef44e4f"
+		)
+	)
+		(text "USB-C on this board feeds KB2040 D+ / D- / RAW (RAW is behind KB2040's Schottky diode). Do not plug both USB-C ports at once."
+		(exclude_from_sim no
+		)
+		(at 38.1 271.78 0
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "5d0e3582-0a61-449a-bd38-bbb2b889f011"
+		)
+	)
+		(text "J1 footprint is not chosen yet. KB2040 footprint needs 26 pads (13 per side incl. D+ / D-)."
+		(exclude_from_sim no
+		)
+		(at 38.1 276.86 0
+		)
+			(effects
+				(font
+				(size 1.27 1.27
+				)
+			)
+			(justify left
+			)
+		)
+		(uuid "a32bb85a-4c0b-4b97-9952-6210ba9ff067"
+		)
+	)
+		(sheet_instances
+			(path "/"
+			(page "1"
+			)
+		)
+	)
+)
