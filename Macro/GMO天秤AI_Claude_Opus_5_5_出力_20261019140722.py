@@ -1,0 +1,1 @@
+import os, pcbnew; exec(open(os.path.join(os.path.dirname(pcbnew.GetBoard().GetFileName()), "fix_schematic.py"), encoding="utf-8").read())

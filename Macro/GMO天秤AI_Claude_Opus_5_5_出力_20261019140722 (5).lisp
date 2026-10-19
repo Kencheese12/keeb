@@ -1,0 +1,22 @@
+(footprint "MountingHole_M2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "M2 mounting hole, NPTH 2.2mm")
+	(tags "mounting hole M2")
+	(property "Reference" "H**"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(property "Value" "M2"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle (center 0 0) (end 1.9 0) (stroke (width 0.1) (type default)) (fill none) (layer "Cmts.User"))
+	(fp_circle (center 0 0) (end 2.2 0) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+	(pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers "*.Cu" "*.Mask"))
+)
